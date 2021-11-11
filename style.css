@@ -1,2 +1,68 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,900;1,300;1,900&family=Roboto+Mono:ital,wght@0,100;0,300;1,100;1,300&family=Roboto:wght@300&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.img-wrapper{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.842);
+}
+
+.img-wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+}
+
+.text-inicial{
+    position: absolute;
+    left: 15%;
+    top: 30%;
+}
+
+.text-inicial h1{
+    color: white;
+    font-size: 3rem;
+    font-family: "Lato", serif;
+    font-weight: 300;
+    text-shadow: .2rem .3rem 3px black;
+}
+
+.text-inicial p{
+    font-family: 'Roboto Mono' serif;
+    font-style: italic;
+    font-weight: 300;
+    color: rgb(0, 235, 252);
+    margin-bottom: 7px;
+}
+
+.text-inicial button{
+    font-family: 'Roboto' serif;
+    font-weight: 300;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+    background: #009fff; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #009fff, #ec2f4b);
+    background: linear-gradient(to right, #009fff, #ec2f4b); 
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.text-inicial button:hover{
+    opacity: 0.8;
+}
