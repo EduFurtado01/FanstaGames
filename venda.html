@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="apple-touch-icon" sizes="180x180" href="Imagens/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Imagens/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Imagens/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>Venda seu produto</title>
+    <link rel="stylesheet" href="stylevenda.css">
+</head>
+<body>
+<div class="box">
+    <form action=" "></form>
+    <fieldset> <legend><b>Venda Seu Jogo/Console</b></legend>
+    <div>
+        <label for="nome">Nome:</label>    
+        <input type="text" id="nome" class="inputuser" placeholder="Seu nome" required>
+    </div><br>
+    <div>
+        <label for="e-mail">E-mail:</label>    
+        <input type="email" id="e-mail" class="inputuser" placeholder="Seu e-mail" required>
+    </div><br>
+    <div>
+    <label for="telefone">Telefone celular</label>
+    <input type="tel" id="telefone" name="seu telefone" 
+    value placeholder ="(__) _____-____" class="inputuser" required>
+    </div><br>
+    <div>
+        <input type="radio" id="Console" name="Tipo"
+        value="Console">
+        <label for="Console"> Console</label>
+    </div>
+    <div>
+        <input type="radio" id="Jogo" name="Tipo"
+        value="Jogo">
+        <label for="Jogo">Jogo</label>
+    </div><br>
+
+    <div>
+        Marca <select name="select">
+            <option value="valor1">Sony</option>
+            <option value="valor2">Microsoft</option>
+            <option value="valor3">Nintendo</option>
+            <option value="valor4"selected>Outros</option>
+        </select>
+    </div><br>
+    <div>
+        <label for="nomepro">Nome do produto:</label>    
+        <input type="text" id="nomepro" class="inputuser" placeholder="Nome do produto que deseja vender" required>
+    </div><br>
+    <div>
+    <label for="fotos">Foto do produto:</label>
+    <input type="file" id="fotos" required>
+    </div><br>
+    <div class="button">
+    <input type="button" value="Pedir contação">
+    </div><br>
+    </fieldset>
+</form>
+</div>
+</body>
+</html>

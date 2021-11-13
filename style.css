@@ -16,7 +16,7 @@
     right: 20px;
     top: 20px;
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     justify-content: space-evenly;
     cursor: pointer;
 }
@@ -149,8 +149,7 @@ header{
 
 
 .quemsomos{
-    width: 100%;
-    height: 100%;
+    display: flex;
     text-align: center;
     background: #009fff;
     background: -webkit-linear-gradient(to right, #009fff, #ec2f4b);

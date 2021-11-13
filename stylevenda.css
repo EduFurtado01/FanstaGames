@@ -1,0 +1,42 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to left, rgb(29, 4, 255), rgb(34, 0, 53));
+}
+
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    border-radius: 15px;
+}
+fieldset{
+    border-radius: 15px;
+    padding: 50px;
+    border:3px solid rgba(8, 177, 255, 0.719);
+}
+legend{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-transform:uppercase;
+}
+.inputuser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(15, 167, 255);
+    width: 100%;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+.button input{
+    color: rgb(0, 149, 175);
+    width: 80%;
+    padding: 10px;
+    letter-spacing: 1px;
+    text-transform:uppercase;
+}
+.button{
+    text-align-last: center;
+}
