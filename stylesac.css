@@ -1,0 +1,56 @@
+body{
+    font-family: Arial;
+    background-image: linear-gradient(to left, rgb(83, 0, 65), rgb(4, 76, 88));
+}
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+fieldset{
+    border-radius: 15px;
+    padding: 50px;
+    border:3px solid purple;
+}
+
+legend{
+    text-align: center;
+    color: purple;
+    text-transform:uppercase;
+}
+.nome input{ 
+    background: none;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+    letter-spacing: 1px;
+}
+
+.email input{ 
+    background: none;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+    letter-spacing: 1px;
+}
+select{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+    letter-spacing: 1px;
+}
+
+.button input{
+    color: purple;
+    width: 100%;
+    padding: 15px;
+    letter-spacing: 1px;
+}
+
+
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang=pt-BR>
+<head>
+    <link rel="apple-touch-icon" sizes="180x180" href="Imagens/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Imagens/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Imagens/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>Sac Fansta</title>
+    <link rel="stylesheet" href="stylesac.css">
+</head>
+<body>
+<div class="box">
+<form action="" method="" class="form_Aluguel">
+<fieldset>
+    <legend>SAC Fansta games</legend><br>
+    <div class="nome">
+        <label for="name"> Nome: </label>
+        <input type="text" name=nome id="name" required>
+    </div><br>
+    <div class="email">
+        <label for="email">E-mail: </label>
+        <input type="email" id="email" required>
+    </div><br>
+    <div class="motivo">
+        Motivo: <select name="select">
+            <option value="valor1">Pedido</option>
+            <option value="valor2">Reclamação</option>
+            <option value="valor3">Sugestão</option>
+            <option value="valor4"selected>Outros</option>
+        </select>
+    </div><br>
+    <div class="OBS">
+    <label for=OBS> Escreva: </label>
+<textarea id=OBS name=OBS
+rows="7" cols="50%" placeholder="Descreve o motivo do contato..." >
+</textarea>
+    </div><br>
+
+    <div class="button">
+        <Label for=ir> </Label>
+        <input type="button" value="Enviar" id=ir>
+    </div>
+</fieldset>
+</form>
+</div>
+</body>
+</html>
